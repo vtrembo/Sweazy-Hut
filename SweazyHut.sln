@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweazyHut", "SweazyHut\SweazyHut.csproj", "{E01D80E8-EAA2-44DA-81B5-2ABC34533510}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA10DFFE-22C2-498A-A2B4-A0DD3D5E5787} = {BA10DFFE-22C2-498A-A2B4-A0DD3D5E5787}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SweazyHut.Data", "SweazyHut.Data\SweazyHut.Data.csproj", "{BA10DFFE-22C2-498A-A2B4-A0DD3D5E5787}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E01D80E8-EAA2-44DA-81B5-2ABC34533510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E01D80E8-EAA2-44DA-81B5-2ABC34533510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01D80E8-EAA2-44DA-81B5-2ABC34533510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E01D80E8-EAA2-44DA-81B5-2ABC34533510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA10DFFE-22C2-498A-A2B4-A0DD3D5E5787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA10DFFE-22C2-498A-A2B4-A0DD3D5E5787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA10DFFE-22C2-498A-A2B4-A0DD3D5E5787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA10DFFE-22C2-498A-A2B4-A0DD3D5E5787}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECC61D90-141A-4CC5-9F17-36ACD790F292}
+	EndGlobalSection
+EndGlobal
